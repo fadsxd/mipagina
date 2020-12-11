@@ -1,0 +1,57 @@
+@import url(menu.css);
+@import url(banner.css);
+@import url(blog.css);
+@import url(info.css);
+@import url(footer.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: white;
+    
+}
+header{
+    width: 100%;       /* header 100% de ancho */
+    height: 45px;
+    background: #333;
+    color: #fff;
+
+    position: fixed;  /* posicion fija */
+    top: 0;           /* empieza la esquina derecha */
+    left: 0;
+    z-index: 100;     /* este delante de los elementos */
+}
+.contenedor{
+    width: 90%;       /* contenedor 90% de ancho */
+    margin: auto;  
+}
+h1{
+    float: left;
+}
+
+header .contenedor{
+    display: table;  
+}
+
+/* toda las secciones */
+section { 
+    width: 100%;
+    margin-bottom: 20px;
+}
+#bienvenidos .contenedor{
+    text-align: center;
+}
+#bienvenidos .contenedor h2{
+    padding-bottom: 10px;
+}
+
+
+
+@media (min-width:1024px){
+    .contenedor {
+        width: 1000px;
+    }
+}

@@ -1,0 +1,21 @@
+
+
+#blog .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;    /* se baja uno debajo de otro  */
+}
+
+#blog article{
+    margin: 15px;
+
+}
+#blog img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+    max-width: 250px;
+}
+#blog h3,h4{
+    text-align: center;
+}
