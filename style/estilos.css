@@ -10,7 +10,7 @@
 }
 
 body{
-    background: white;
+    background-color: white;
     
 }
 header{
@@ -26,10 +26,16 @@ header{
 }
 .contenedor{
     width: 90%;       /* contenedor 90% de ancho */
-    margin: auto;  
+    margin: auto;
+    
 }
 h1{
     float: left;
+}
+h1 img{
+    height: 35px;
+    padding-right: 5px;
+    padding-top: 10px;
 }
 
 header .contenedor{

@@ -7,15 +7,49 @@ footer .contenedor{
 }
 .copy{
     font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 5px;
 }
+.copy a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+
 .sociales{
     text-align: center;
     width: 100%;
-    font-size: 28px;
+    font-size: 20px;
 }
 .sociales a{
-    color: #333;
+    color:black;
     text-decoration: none;
+    padding: 10px;
+}
+
+.sociales i{
+    font-size: 30px;
+}
+
+hr{
+    border-color: black;
+
+}
+.bxl-facebook:hover {
+    color: #0206ee;
+}
+.bxl-whatsapp:hover {
+    color: #008f39;
+}
+.bxl-instagram:hover {
+    color: #860f6c
+    
+}
+.bxl-twitter:hover {
+    color: #00aced ;
 }
 
 @media(min-width:768px){
