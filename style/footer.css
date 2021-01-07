@@ -1,4 +1,7 @@
-
+footer {
+    background-color: black;
+    color: white;
+}
 footer .contenedor{
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +16,7 @@ footer .contenedor{
 }
 .copy a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
@@ -34,23 +37,12 @@ footer .contenedor{
     font-size: 30px;
 }
 
-hr{
-    border-color: black;
+a img {
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+}
 
-}
-.bxl-facebook:hover {
-    color: #0206ee;
-}
-.bxl-whatsapp:hover {
-    color: #008f39;
-}
-.bxl-instagram:hover {
-    color: #860f6c
-    
-}
-.bxl-twitter:hover {
-    color: #00aced ;
-}
 
 @media(min-width:768px){
     .sociales{
